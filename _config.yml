@@ -1,0 +1,14 @@
+# Site settings
+title: Your blog title goes here
+description: >
+  Your blog description
+baseurl: "" # Will be prepended everywhere (you don't need it)
+url: "https://check-out-my-awesome-blog.org" # The blog url you want to choose (you can use a github.io one, or pick your own hosted url :))
+logo: "https://a-link-to-my-blog-logo" # This one is used as blog logo
+twitter_username: # Your twitter handle
+github_username: # Your github handle
+
+# Build settings
+highlighter: rouge
+
+root: "https://check-out-my-awesome-blog.org" # Not really sure this is useful, need to cross check with blog writers :)
