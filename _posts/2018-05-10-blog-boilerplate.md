@@ -11,10 +11,12 @@ All of the [markdown rules](https://guides.github.com/features/mastering-markdow
 For example, you can write something in *italic* like this, you can write in **bold** like that. 
 
 # This is an h1 (big) title
+
 ## This title is a bit smaller
+
 ### This one is even more smaller etc.
 
-Don't hesitate and visit https://guides.github.com/features/mastering-markdown/ to get more information ! 
+Don't hesitate and visit [mastering-markdown](https://guides.github.com/features/mastering-markdown/) to get more information ! 
 
 # The name of the file is important !
 This will generate the url, and complete the blog post meta informations (Such as the date for example).
