@@ -18,6 +18,8 @@ This project has been forked from the awesome [github repo](https://github.com/r
 - [Setup github pages](https://pages.github.com/)
 - Send me a link to your blog and your first article, I'd love to read it ! :)
 
+A deeper guide on how to setup a jekyll blog can be found [here](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/). I'll probably create one too if it helps.
+
 The theme and layout can be found under _includes / _layouts _sass and / css.
 
 The favicon is [here](favicon.ico).
