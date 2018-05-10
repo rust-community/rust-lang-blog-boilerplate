@@ -3,7 +3,7 @@
 This is the code that powers [the rustlang blog boilerplate]. It is running
 on [GitHub pages].
 
-[the rustlang blog boilerplate]: https://blog.rust-lang.org/
+[the rustlang blog boilerplate]: https://o0ignition0o.github.io/rust-lang-blog-boilerplate/
 [GitHub pages]: https://pages.github.com/
 
 This project has been forked from the awesome [github repo](https://github.com/rust-lang/blog.rust-lang.org) of the [RustLang blog](https://blog.rust-lang.org/)
