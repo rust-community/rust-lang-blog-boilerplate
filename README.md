@@ -29,7 +29,7 @@ The Rust Programming Language Blog is primarily distributed under the terms of
 CC-BY 4.0. 
 So is this boilerplate.
 
-See LICENSE for details.
+See [LICENSE](LICENSE) for details.
 
 ## Code of conduct
 
