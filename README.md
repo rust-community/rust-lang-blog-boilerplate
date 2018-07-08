@@ -1,12 +1,13 @@
 # RustLang Blog Boilerplate
 
-This is the code that powers [the rustlang blog boilerplate]. It is running
-on [GitHub pages].
+This is the boilerplate code that allows you to quickly setup a blog that looks like the [RustLang blog].
+It can easily be run on [GitHub pages].
 
-[the rustlang blog boilerplate]: https://o0ignition0o.github.io/rust-lang-blog-boilerplate/
+This project has been forked from the awesome [GitHub repo] of the [RustLang blog].
+
+[RustLang blog]: https://blog.rust-lang.org/
+[GitHub repo]: https://github.com/rust-lang/blog.rust-lang.org
 [GitHub pages]: https://pages.github.com/
-
-This project has been forked from the awesome [github repo](https://github.com/rust-lang/blog.rust-lang.org) of the [RustLang blog](https://blog.rust-lang.org/)
 
 ## How to use it
 
@@ -23,13 +24,14 @@ A deeper guide on how to setup a jekyll blog can be found [here](https://www.sma
 The theme and layout can be found under _includes / _layouts _sass and / css.
 
 The favicon is [here](favicon.ico).
+
 ## License
 
 The Rust Programming Language Blog is primarily distributed under the terms of
 CC-BY 4.0. 
 So is this boilerplate.
 
-See LICENSE for details.
+See [LICENSE](LICENSE) for details.
 
 ## Code of conduct
 
