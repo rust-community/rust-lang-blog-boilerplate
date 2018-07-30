@@ -1,5 +1,6 @@
 # Site settings
 title: Your blog title goes here
+style: "default" //dark for nightmode
 description: >
   Your blog description
 baseurl: "/rust-lang-blog-boilerplate" # should be / if you build a global github page (eg o0ignition0o.github.io)
