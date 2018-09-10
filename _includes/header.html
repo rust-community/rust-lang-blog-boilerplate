@@ -2,26 +2,17 @@
 <script type="text/javascript">
     window.onload = function(e) {
       if (localStorage.Theme != "dark") {
-          console.log("Theme is default");
-          localStorage.Theme = "default";
           window.document.getElementById("toggleTheme").checked = false;
-          window.document.getElementsByTagName('html')[0].className = "default";
       } else {
-          console.log("Theme is dark");
           window.document.getElementById("toggleTheme").checked = true;
-          window.document.getElementsByTagName('html')[0].className = "dark";
       }
-  }
+      applyTheme();
+    }
 
-  function toggleTheme(checkbox) {
-      if (checkbox.checked) {
-          localStorage.Theme = "dark";
-          window.document.getElementsByTagName('html')[0].className = "dark";
-      } else {
-          localStorage.Theme = "default";
-          window.document.getElementsByTagName('html')[0].className = "default";
-      }
-  }
+    function applyTheme(){
+      window.document.getElementsByTagName('html')[0].className = window.document.getElementById('toggleTheme').checked ? "dark":"default";
+      localStorage.Theme = window.document.getElementsByTagName('html')[0].className;
+    }
 </script>
   <div class="wrapper">
 
@@ -45,7 +36,7 @@
       </div>
     </nav>-->
     <label class="site-switch-theme">
-       <input type="checkbox" id="toggleTheme" onclick="toggleTheme(this)">
+       <input type="checkbox" id="toggleTheme" onclick="applyTheme()">
        <span class="slider"></span>
     </label>
   </div>

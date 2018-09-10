@@ -42,9 +42,9 @@ $dark-text-color: #c5c5c5;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-       "base", 
+       "base",
        "layout",
-        "syntax-highlighting"
+       "syntax-highlighting"
 ;
 
 td, th {
