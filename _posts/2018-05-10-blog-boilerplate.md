@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "This is an example article, modify me to create your first blog post !"
-author: You ! :)
+author: chansuke
 ---
 
 Here is a boilerplate you can modify to write your first blog post !
@@ -10,7 +10,7 @@ All of the [markdown rules](https://guides.github.com/features/mastering-markdow
 
 For example, you can write something in *italic* like this, you can write in **bold** like that. 
 
-# This is an h1 (big) title
+# Test
 
 ## This title is a bit smaller
 
