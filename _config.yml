@@ -1,12 +1,12 @@
 # Site settings
-title: Your blog title goes here
+title: rust notes
 description: >
-  Your blog description
-baseurl: "/rust-lang-blog-boilerplate" # should be / if you build a global github page (eg o0ignition0o.github.io)
-url: "https://o0Ignition0o.github.io" # The blog url you want to choose (you can use a github.io one, or pick your own hosted url :))
+  My notable things about rust & servo
+baseurl: "/blog" # should be / if you build a global github page (eg o0ignition0o.github.io)
+url: "https://chansuke.github.io" # The blog url you want to choose (you can use a github.io one, or pick your own hosted url :))
 logo: "https://www.rust-lang.org/logos/rust-logo-64x64-blk.png" # This one is used as blog logo
-twitter_username: o0ignition0o # Your twitter handle
-github_username: o0Ignition0o # Your github handle
+twitter_username: chansuke_ # Your twitter handle
+github_username: chansuke # Your github handle
 
 # Build settings
 highlighter: rouge
