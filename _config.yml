@@ -1,14 +1,13 @@
-# Site settings
-title: rust notes
+title: chansuke's blog
 description: >
-  My notable things about rust & servo
-baseurl: "/blog" # should be / if you build a global github page (eg o0ignition0o.github.io)
-url: "https://chansuke.github.io" # The blog url you want to choose (you can use a github.io one, or pick your own hosted url :))
-logo: "https://www.rust-lang.org/logos/rust-logo-64x64-blk.png" # This one is used as blog logo
+  My notable things about rust, games and so on.
+baseurl: '/blog'
+url: 'https://chansuke.github.io'
+logo: 'https://www.rust-lang.org/logos/rust-logo-64x64-blk.png' # This one is used as blog logo
 twitter_username: chansuke_ # Your twitter handle
 github_username: chansuke # Your github handle
 
 # Build settings
 highlighter: rouge
 
-root: "https://check-out-my-awesome-blog.org" # Not really sure this is useful, need to cross check with blog writers :)
+root: 'https://check-out-my-awesome-blog.org' # Not really sure this is useful, need to cross check with blog writers :)
