@@ -4,7 +4,7 @@ description: >
   The blog and website for Boa
 baseurl: "" # should be / if you build a global github page (eg o0ignition0o.github.io)
 url: "127.0.0.1:4000" # The blog url you want to choose (you can use a github.io one, or pick your own hosted url :))
-logo: "https://avatars0.githubusercontent.com/u/65306342?s=400&u=7022ca69015a845874a0b139678dba6b2e606b95&v=4" # This one is used as blog logo
+logo: "/images/logo.png" # This one is used as blog logo
 # twitter_username: o0ignition0o # Your twitter handle
 # github_username: o0Ignition0o # Your github handle
 
