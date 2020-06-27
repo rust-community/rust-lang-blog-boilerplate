@@ -1,4 +1,4 @@
-# RustLang Blog Boilerplate
+# Boa Blog website
 
 This is the boilerplate code that allows you to quickly setup a blog that looks like the [RustLang blog].
 It can easily be run on [GitHub pages].
