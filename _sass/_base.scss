@@ -20,6 +20,7 @@ body {
     font-weight: 300;
     color: $text-color;
     background-color: $background-color;
+    transition: background-color 0.5s;
 }
 
 
@@ -241,6 +242,7 @@ html.dark{
         font-weight: 300;
         color: $dark-text-color;
         background-color: $dark-background-color;
+        transition: background-color 0.5s;
     }
     
     

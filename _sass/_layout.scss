@@ -16,6 +16,89 @@
   padding: 5px 0;
 }
 
+.toggle-mode {
+    padding: 0 0 0 10px;
+    width: 100%;
+    display: flex;
+    
+    .icon {
+        width: 25px;
+        float: left;
+        margin: 0 8px;
+        display: flex;
+        font-size: 1.5rem;
+        justify-content: center;
+
+        i.fa {
+            font-size: 20px;
+            color: #4fa1d0;
+            display: inline-block;
+            text-rendering: auto;
+            position: relative;
+            font-style: normal;
+            bottom: 5px;
+        }
+
+        .fa-sun-o:before {
+            content: "\1F323";
+        }
+        
+        .fa-moon-o:before {
+            content: "\263D";
+        }
+    }
+    .toggle-switch {
+        
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #c3e4f7;
+            border: 1px solid #c3e4f7;       
+
+            &:before {
+                background-color: #4fa1d0;
+                transform: translateX(0); 
+                transition: transform 0.5s;
+                position: absolute;
+                content: "";
+                height: 15px;
+                width: 15px;
+                left: 2px;
+                bottom: 1px;
+            }
+
+        }
+        
+        input:checked+.slider:before {
+            transform: translateX(26px); 
+        }
+
+        .slider.round {
+            border-radius: 34px;
+            
+            &:before {
+                border-radius: 50%;
+            }
+        }
+
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 47px;
+            height: 19px;
+
+            input {
+                display: none;
+            }
+        }
+    }
+}
+
+
 .site-switch-theme {
     position: relative;
     display: inline-block;
