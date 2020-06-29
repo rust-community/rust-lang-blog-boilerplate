@@ -1,50 +1,59 @@
 <header class="site-header">
   <script type="text/javascript">
-    // By calling this on DOM Ready rather than window.load means we should have our 
+    // By calling this on DOM Ready rather than window.load means we should have our
     // preferred color and classes set before the user sees the page (no flash)
-    document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener("DOMContentLoaded", () => {
       detectColorScheme();
-    })
+    });
 
     // This is just in case the above doesn't register in time
-    window.addEventListener('load', (e) => {
+    window.addEventListener("load", (e) => {
       detectColorScheme();
     });
 
     function applyTheme() {
       const checkbox = window.document.getElementById("toggleTheme");
-      window.document.getElementsByTagName('html')[0].className = window.document.getElementById('toggleTheme').checked ? "dark" : "default";
-      localStorage.setItem('theme', window.document.getElementsByTagName('html')[0].className);
+      window.document.getElementsByTagName(
+        "html"
+      )[0].className = window.document.getElementById("toggleTheme").checked
+        ? "dark"
+        : "default";
+      localStorage.setItem(
+        "theme",
+        window.document.getElementsByTagName("html")[0].className
+      );
     }
 
     //determines if the user has a set theme
     function detectColorScheme() {
-      var theme = "light";    //default to light
+      let theme = "light"; //default to light
 
       //local storage is used to override OS theme settings
       if (localStorage.getItem("theme")) {
         if (localStorage.getItem("theme") == "dark") {
-          var theme = "dark";
+          theme = "dark";
         }
       } else if (!window.matchMedia) {
         //matchMedia method not supported
         return false;
       } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
         //OS theme setting detected as dark
-        var theme = "dark";
+        theme = "dark";
       }
 
       //dark theme preferred, set document with a `data-theme` attribute
       if (theme == "dark") {
-        window.document.getElementsByTagName('html')[0].className = theme;
+        console.log("setting html class");
+        window.document.getElementsByTagName("html")[0].className = theme;
         window.document.getElementById("toggleTheme").checked = true;
-        localStorage.setItem('theme', theme);
+        localStorage.setItem("theme", theme);
       }
     }
   </script>
   <div class="wrapper">
-
-    <a class="site-title" href="{{ site.baseurl }}/"><img id="site-logo" src="{{ site.logo }}" /> {{ site.title }}</a>
+    <a class="site-title" href="{{ site.baseurl }}/"
+      ><img id="site-logo" src="{{ site.logo }}" /> {{ site.title }}</a
+    >
 
     <!--<nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -68,5 +77,4 @@
       <span class="slider"></span>
     </label> -->
   </div>
-
 </header>
