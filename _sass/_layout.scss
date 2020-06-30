@@ -621,12 +621,12 @@
 // Start with default
 @include layoutDefault();
 
-// Then System Dark Mode
+// Then system dark mode
 @media (prefers-color-scheme: dark) {
   @include layoutDark();
 }
 
-// Then JavaScript override of default/dark
+// Then toggle override of default/dark
 
 html.dark {
   @include layoutDark();

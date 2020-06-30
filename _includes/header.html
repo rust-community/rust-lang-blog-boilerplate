@@ -6,11 +6,6 @@
       detectColorScheme();
     });
 
-    // This is just in case the above doesn't register in time
-    window.addEventListener("load", (e) => {
-      detectColorScheme();
-    });
-
     function applyTheme() {
       const checkbox = window.document.getElementById("toggleTheme");
       window.document.getElementsByTagName(
@@ -26,13 +21,11 @@
 
     //determines if the user has a set theme
     function detectColorScheme() {
-      let theme = "light"; //default to light
+      let theme = "default"; //default to light
 
       //local storage is used to override OS theme settings
       if (localStorage.getItem("theme")) {
-        if (localStorage.getItem("theme") == "dark") {
-          theme = "dark";
-        }
+        theme = localStorage.getItem("theme");
       } else if (!window.matchMedia) {
         //matchMedia method not supported
         return false;
@@ -42,11 +35,10 @@
       }
 
       //dark theme preferred, set document with a `data-theme` attribute
-      if (theme == "dark") {
-        console.log("setting html class");
-        window.document.getElementsByTagName("html")[0].className = theme;
+      window.document.getElementsByTagName("html")[0].className = theme;
+      localStorage.setItem("theme", theme);
+      if (theme === "dark") {
         window.document.getElementById("toggleTheme").checked = true;
-        localStorage.setItem("theme", theme);
       }
     }
   </script>

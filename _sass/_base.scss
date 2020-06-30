@@ -42,7 +42,6 @@
     font-weight: 300;
     color: $text-color;
     background-color: $background-color;
-    transition: background-color 0.5s;
   }
 
   /**
@@ -258,7 +257,6 @@
     font-weight: 300;
     color: $dark-text-color;
     background-color: $dark-background-color;
-    transition: background-color 0.5s;
   }
 
   /**
@@ -452,11 +450,17 @@
   }
 }
 
+// Order of specificity
+
+// Start with default
 @include default();
 
+// Then system dark mode
 @media (prefers-color-scheme: dark) {
   @include dark();
 }
+
+// Then toggle override of default/dark
 
 html.dark {
   @include dark();
