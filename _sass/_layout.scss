@@ -30,7 +30,7 @@
       font-size: 1.5rem;
       justify-content: center;
 
-      i.fa {
+      i.font {
         font-size: 20px;
         color: #4fa1d0;
         display: inline-block;
@@ -40,11 +40,11 @@
         bottom: 5px;
       }
 
-      .fa-sun-o:before {
+      .font-sun-o:before {
         content: "\1F323";
       }
 
-      .fa-moon-o:before {
+      .font-moon-o:before {
         content: "\263D";
       }
     }
