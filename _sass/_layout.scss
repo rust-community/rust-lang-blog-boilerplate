@@ -19,7 +19,6 @@
   }
 
   .toggle-mode {
-    padding: 0 0 0 10px;
     width: 100%;
     display: flex;
 
@@ -49,6 +48,11 @@
         content: "\263D";
       }
     }
+
+    .icon:first-child {
+      margin-left: 0;
+    }
+
     .toggle-switch {
       .slider {
         position: absolute;
