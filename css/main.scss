@@ -24,7 +24,8 @@ $grey-color-dark:  darken($grey-color, 25%);
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
+$dark-background-color: #0f1419;
+$dark-text-color: #c5c5c5;
 
 // Using media queries with like this:
 // @include media-query($palm) {
@@ -39,18 +40,12 @@ $on-laptop:        800px;
     }
 }
 
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "syntax-highlighting"
+       "base",
+       "layout",
+       "syntax-highlighting"
 ;
-
-.highlight {
-    background-color: #eef;
-}
 
 td, th {
     border-bottom: 1px solid #eee;
