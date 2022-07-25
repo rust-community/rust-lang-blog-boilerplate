@@ -7,6 +7,12 @@ url: "https://o0Ignition0o.github.io" # The blog url you want to choose (you can
 logo: "https://www.rust-lang.org/logos/rust-logo-64x64-blk.png" # This one is used as blog logo
 twitter_username: o0ignition0o # Your twitter handle
 github_username: o0Ignition0o # Your github handle
+exclude:
+  - vendor
+  - .github
+  - README.md
+  - Gemfile
+  - Gemfile.lock
 
 # Build settings
 highlighter: rouge
