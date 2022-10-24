@@ -21,7 +21,7 @@ This project has been forked from the awesome [GitHub repo] of the [RustLang blo
 
 A deeper guide on how to setup a jekyll blog can be found [here](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/). I'll probably create one too if it helps.
 
-The theme and layout can be found under _includes / _layouts _sass and / css.
+The theme and layout can be found under `/_includes`, `/_layouts`, `/_sass`, and `/css`.
 
 The favicon is [here](favicon.ico).
 
